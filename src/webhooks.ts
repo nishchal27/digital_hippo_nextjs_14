@@ -37,7 +37,7 @@ export const stripeWebhookHandler = async (
   }
 
   const session = event.data
-    .object as Stripe.Checkout.Session
+    .object as Stripe.Checkout.Session;
 
   if (
     !session?.metadata?.userId ||

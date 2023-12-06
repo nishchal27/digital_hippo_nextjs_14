@@ -9,7 +9,7 @@ export function cn(...inputs: ClassValue[]) {
 export function formatPrice(
   price: number | string,
   options: {
-    currency?: 'USD' | 'INR' | 'EUR' | 'GBP' | 'BDT'
+    currency?: 'INR' | 'USD' | 'EUR' | 'GBP' | 'BDT'
     notation?: Intl.NumberFormatOptions['notation']
   } = {}
 ) {
@@ -18,7 +18,7 @@ export function formatPrice(
   const numericPrice =
     typeof price === 'string' ? parseFloat(price) : price
 
-  return new Intl.NumberFormat('en-US', {
+  return new Intl.NumberFormat('en-IN', {
     style: 'currency',
     currency,
     notation,
@@ -59,7 +59,7 @@ export function constructMetadata({
       creator: '@nishchal27dev',
     },
     icons,
-    metadataBase: new URL('https://digitalhippo.up.railway.app'),
+    metadataBase: new URL('https://digitalhipponextjs14-production.up.railway.app'),
     ...(noIndex && {
       robots: {
         index: false,
