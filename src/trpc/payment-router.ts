@@ -54,8 +54,9 @@ export const paymentRouter = router({
         })
       })
 
+      //here in 'line_items' price value should be according to the product in the user stripe acc.
       line_items.push({
-        price: 'price_1OCeBwA19umTXGu8s4p2G3aX',
+        price: "price_1OKBGOSCbHXdPxeQRpr29ZGd",
         quantity: 1,
         adjustable_quantity: {
           enabled: false,
