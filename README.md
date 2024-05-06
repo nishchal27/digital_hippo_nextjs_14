@@ -2,11 +2,8 @@
 
 Built with the Next.js 14 App Router, tRPC, TypeScript, Payload & Tailwind
 
-![Project Image](https://github.com/joschan21/digitalhippo/blob/master/public/thumbnail.jpg)
-
 ## Features
 
-- 🛠️ Complete marketplace built from scratch in Next.js 14
 - 💻 Beautiful landing page & product pages included
 - 🎨 Custom artwork included
 - 💳 Full admin dashboard
@@ -29,12 +26,3 @@ To get started with this project, run
 ```
 
 and copy the .env.example variables into a separate .env file, fill them out & and that's all you need to get started!
-
-
-## Acknowledgements
-
-- [Payload](https://link.joshtriedcoding.com/payload) for making this project possible
-
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
